@@ -23,4 +23,4 @@ Um WebApp de Chat Real time feito utilizando as ferramentas Node.js e Socket.io 
 Aprendi a como utilizar o socket.io de forma mais completa e compacta e como mexer com arquivos externos para armazenar os usuarios.
 
 
-                                                        Dependencies Language Top License
+                                                       
