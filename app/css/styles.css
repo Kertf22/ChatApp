@@ -10,18 +10,29 @@ body {
     margin: auto;
     max-width: 1396px;
     background-color: white;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-nav {
+.room-card { 
+    margin-top: 25px;
+    width: 90%;
+    height: 100%;
+    max-width: 525px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.room-top {
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 15px;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    background-color: #0077b6
+    background-color: #6923b9d8;
+    border-radius: 14px 14px 0px 0px;
 };
-nav .user-info {
+.room-top .user-info {
     width: fit-content;
     flex-direction: column;
 }
@@ -30,33 +41,20 @@ nav .user-info {
     height: 40px;
     image-rendering: auto;
     border-radius: 100%;
-};
-
+}
 .user-name {
     font-size: 25px;
-};
-
-
-.room-card { 
-    padding: 30px;
-    background-color: white;
-
-};
-
+}
 .room-card__title{
     font-size: 20px;
 }
-
 .room-card--align {
-    max-width: 725px;
-
     align-items: center;
     justify-content: center;
     padding: 20px;
     background-color: white;
     width: 100%;
     margin: auto;
-    border: 1px solid black;
 }
 #chat-message{
     width: 100%;
@@ -108,11 +106,11 @@ nav .user-info {
 .form_box{
     display: flex;
     justify-content: center;
-};
+}
 .form_item {
     width: 70%;
     max-width: 365px;
-};
+}
 .text_user{
     width: 70%;
     
@@ -133,6 +131,7 @@ nav .user-info {
 }
 .button_box{    
     display: flex;
+    width: 100%;
     flex-direction: row;
     margin: 15px 0 15px 0px;
     justify-content: center;
@@ -159,7 +158,7 @@ nav .user-info {
     padding: 15px;
     max-width: 525px;
     height: 315px;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
