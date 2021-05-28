@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <title>Lobby - Chat-RealTime</title>
+
+    <style></style>
+
+</head>
+
+<body>
+    <section class="PageContent">
+        <!-- Menu -->
+
+        <!-- room -->
+        <div class="room-card" id="chat">
+            <nav>
+                <div class="user-info" id="user-info">
+                    <p class="user-name" id="user-name"></p>
+                </div>
+                <h1>Chat Real Time</h1>
+            </nav>
+            <div class="room-card--align">
+                <div id="chat-message">
+
+                </div>
+                <div class="form_box">
+                    <form class="form_item" action="" >
+                        <input type="text" class="text_box" id="text_box">
+                    </form>
+                    <input type="submit" id='submit_btn'>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.socket.io/4.1.1/socket.io.min.js"
+        integrity="sha384-cdrFIqe3RasCMNE0jeFG9xJHog/tgOVC1E9Lzve8LQN1g5WUHo0Kvk1mawWjxX7a" crossorigin="anonymous">
+        </script>
+    <script type="module" src="./src/index.js"></script>
+
+</body>
+
+</html>

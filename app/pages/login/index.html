@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <style>
+
+    </style>
+    <title>Login -- Chat Real time</title>
+</head>
+<body>
+    <section class="PageContent">    
+        <div class="button_box">
+            <button id="sing_in">sing-in</button>
+            <button id="sing_up">sing-up</button>
+        </div>
+
+        <div class="sing" id = "sing_in_box">
+            <h2>Sing-in</h2>
+            <input type="text" class="input_box"id="sing_in_input_username" placeholder="Username">
+            <input type="text" class="input_box" id="sing_in_input_password" placeholder="Password">
+            <input type="submit" class="submit_btn" id="sing_in_submit_btn">
+        </div>  
+        <div class="sing" id = "sing_up_box">
+            <h2>Sing-up</h2>
+            <input type="text" class="input_box" id="sing_up_input_username" placeholder="Username">
+            <input type="text" class="input_box" id="sing_up_input_password" placeholder="Password">
+            <input type="submit"class="submit_btn" id="sing_up_submit_btn">
+        </div>        
+    </section >
+
+        <script src="https://cdn.socket.io/4.1.1/socket.io.min.js"
+        integrity="sha384-cdrFIqe3RasCMNE0jeFG9xJHog/tgOVC1E9Lzve8LQN1g5WUHo0Kvk1mawWjxX7a" crossorigin="anonymous">
+        </script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mocha/1.0.2/package/lib/browser/fs.js"></script>
+    <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>
+
